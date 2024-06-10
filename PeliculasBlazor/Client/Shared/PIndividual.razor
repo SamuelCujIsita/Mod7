@@ -1,0 +1,23 @@
+﻿<h3>PIndividual</h3>
+<div>
+    <p>Titulo: <b>@pelicula.Titulo</b></p>
+    @if (DateTime.Today.Subtract(pelicula.FechaLanzamiento).TotalDays > 365)
+    {
+        <span style="color: red">¡ESTRENADO HACE: @(((int)(DateTime.Today.Subtract(pelicula.FechaLanzamiento).TotalDays / 365))) años!</span>
+    }
+    <p>Fecha de lanzamiento: @pelicula.FechaLanzamiento.ToString("dddd MMM yyyy")</p>
+
+    <div>
+        <button @onclick="@(()=>EliminarPelicula.InvokeAsync(pelicula))">Borrar</button>
+    </div>
+</div>
+
+
+@code {
+    [Parameter]
+    public Pelicula pelicula { get; set; } = null!;
+
+    [Parameter]
+    public EventCallback<Pelicula> EliminarPelicula { get; set; }
+
+}

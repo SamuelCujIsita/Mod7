@@ -1,0 +1,45 @@
+﻿@inject IJSRuntime js
+
+<h3>ListadoPelicula</h3>
+    @if (Peliculas is null)
+    {
+     <img alt="cargando"
+          src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Loading_icon.gif?20151024034921" />
+    }
+    else if (Peliculas.Count == 0)
+    {
+        <p>No hay peliculas para mostrar</p>
+    }
+        else
+        {
+            @foreach (var pelicula in Peliculas)
+            {
+                <PIndividual pelicula=pelicula
+                     EliminarPelicula="EliminarPelicula"></PIndividual>
+            }
+        }
+
+
+@code {
+    [Parameter]
+    public List<Pelicula>? Peliculas { get; set; }
+
+
+    protected override void OnInitialized()
+    {
+        Console.WriteLine("OnInitialized");
+    }
+
+    private async Task EliminarPelicula(Pelicula pelicula)
+    {
+        var confirmado = await js.Confirm($"Desea Borrar la pelicula: {pelicula.Titulo}");
+        //var confirmado = await js.InvokeAsync<bool>("confirm", $"¿Desea borrar la pelicula {pelicula.Titulo}");
+        if (confirmado)
+        {
+            Console.WriteLine("Eliminando pelicula");
+            Peliculas.Remove(pelicula);
+        }
+        
+    }
+
+}
