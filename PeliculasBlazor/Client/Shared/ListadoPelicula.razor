@@ -1,34 +1,29 @@
 ﻿@inject IJSRuntime js
 
-<h3>ListadoPelicula</h3>
+<div style="display:flex; flex-wrap:wrap; align-items:center;">
     @if (Peliculas is null)
     {
-     <img alt="cargando"
-          src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Loading_icon.gif?20151024034921" />
+        <img alt="cargando"
+             src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Loading_icon.gif?20151024034921" />
     }
     else if (Peliculas.Count == 0)
     {
         <p>No hay peliculas para mostrar</p>
     }
-        else
+    else
+    {
+        @foreach (var pelicula in Peliculas)
         {
-            @foreach (var pelicula in Peliculas)
-            {
-                <PIndividual pelicula=pelicula
-                     EliminarPelicula="EliminarPelicula"></PIndividual>
-            }
+            <PIndividual pelicula=pelicula
+                         EliminarPelicula="EliminarPelicula"></PIndividual>
         }
+    }
+</div>
 
 
 @code {
     [Parameter]
     public List<Pelicula>? Peliculas { get; set; }
-
-
-    protected override void OnInitialized()
-    {
-        Console.WriteLine("OnInitialized");
-    }
 
     private async Task EliminarPelicula(Pelicula pelicula)
     {
@@ -39,7 +34,7 @@
             Console.WriteLine("Eliminando pelicula");
             Peliculas.Remove(pelicula);
         }
-        
+
     }
 
 }
