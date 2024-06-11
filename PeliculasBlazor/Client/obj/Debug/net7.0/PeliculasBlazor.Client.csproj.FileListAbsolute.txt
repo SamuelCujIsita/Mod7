@@ -833,3 +833,7 @@ C:\REPOS\BlazorProyecto\PeliculasBlazor\Client\obj\Debug\net7.0\PeliculasBlazor.
 C:\REPOS\BlazorProyecto\PeliculasBlazor\Client\obj\Debug\net7.0\refint\PeliculasBlazor.Client.dll
 C:\REPOS\BlazorProyecto\PeliculasBlazor\Client\obj\Debug\net7.0\PeliculasBlazor.Client.pdb
 C:\REPOS\BlazorProyecto\PeliculasBlazor\Client\obj\Debug\net7.0\ref\PeliculasBlazor.Client.dll
+C:\REPOS\BlazorProyecto\PeliculasBlazor\Client\bin\Debug\net7.0\wwwroot\_framework\CurrieTechnologies.Razor.SweetAlert2.dll
+C:\REPOS\BlazorProyecto\PeliculasBlazor\Client\bin\Debug\net7.0\wwwroot\_framework\CurrieTechnologies.Razor.SweetAlert2.dll.gz
+C:\REPOS\BlazorProyecto\PeliculasBlazor\Client\bin\Debug\net7.0\CurrieTechnologies.Razor.SweetAlert2.dll
+C:\REPOS\BlazorProyecto\PeliculasBlazor\Client\obj\Debug\net7.0\compressed\8l1equisqr.gz

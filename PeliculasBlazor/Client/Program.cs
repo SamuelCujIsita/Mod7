@@ -1,3 +1,4 @@
+using CurrieTechnologies.Razor.SweetAlert2;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using PeliculasBlazor.Client;
@@ -14,5 +15,6 @@ await builder.Build().RunAsync();
 
 void ConfigureServices(IServiceCollection services)
 {
+    services.AddSweetAlert2();
     services.AddSingleton<IRepositorio, Repositorio>();
 }

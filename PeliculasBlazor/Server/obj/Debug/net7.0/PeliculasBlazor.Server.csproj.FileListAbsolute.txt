@@ -53,3 +53,4 @@ C:\REPOS\BlazorProyecto\PeliculasBlazor\Server\obj\Debug\net7.0\refint\Peliculas
 C:\REPOS\BlazorProyecto\PeliculasBlazor\Server\obj\Debug\net7.0\PeliculasBlazor.Server.pdb
 C:\REPOS\BlazorProyecto\PeliculasBlazor\Server\obj\Debug\net7.0\PeliculasBlazor.Server.genruntimeconfig.cache
 C:\REPOS\BlazorProyecto\PeliculasBlazor\Server\obj\Debug\net7.0\ref\PeliculasBlazor.Server.dll
+C:\REPOS\BlazorProyecto\PeliculasBlazor\Server\bin\Debug\net7.0\CurrieTechnologies.Razor.SweetAlert2.dll

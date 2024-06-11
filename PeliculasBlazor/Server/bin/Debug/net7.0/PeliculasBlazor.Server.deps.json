@@ -16,6 +16,18 @@
           "PeliculasBlazor.Server.dll": {}
         }
       },
+      "CurrieTechnologies.Razor.SweetAlert2/5.6.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Components": "7.0.20",
+          "Microsoft.AspNetCore.Components.Web": "7.0.20"
+        },
+        "runtime": {
+          "lib/net7.0/CurrieTechnologies.Razor.SweetAlert2.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "Microsoft.AspNetCore.Authorization/7.0.20": {
         "dependencies": {
           "Microsoft.AspNetCore.Metadata": "7.0.20",
@@ -215,6 +227,7 @@
       },
       "PeliculasBlazor.Client/1.0.0": {
         "dependencies": {
+          "CurrieTechnologies.Razor.SweetAlert2": "5.6.0",
           "Microsoft.AspNetCore.Components.WebAssembly": "7.0.20",
           "PeliculasBlazor.Shared": "1.0.0"
         },
@@ -234,6 +247,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "CurrieTechnologies.Razor.SweetAlert2/5.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AnWBR8DnZW4EN+N0XuNs2YFuZkNMKoq8MXD05g93sP8KR43oe3CrvdLeuq2TAmWZKmw4wZdPxemGo1RAuefcmw==",
+      "path": "currietechnologies.razor.sweetalert2/5.6.0",
+      "hashPath": "currietechnologies.razor.sweetalert2.5.6.0.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Authorization/7.0.20": {
       "type": "package",
