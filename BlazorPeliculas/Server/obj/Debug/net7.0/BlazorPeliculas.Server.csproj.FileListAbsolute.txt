@@ -1,0 +1,146 @@
+C:\REPOS\BlazorCurso\BlazorPeliculas\ASP.NET Core 7\Modulo 5 - Formularios\Fin\BlazorPeliculas\Server\bin\Debug\net7.0\BlazorPeliculas.Client.staticwebassets.runtime.json
+C:\REPOS\BlazorCurso\BlazorPeliculas\ASP.NET Core 7\Modulo 5 - Formularios\Fin\BlazorPeliculas\Server\bin\Debug\net7.0\appsettings.Development.json
+C:\REPOS\BlazorCurso\BlazorPeliculas\ASP.NET Core 7\Modulo 5 - Formularios\Fin\BlazorPeliculas\Server\bin\Debug\net7.0\appsettings.json
+C:\REPOS\BlazorCurso\BlazorPeliculas\ASP.NET Core 7\Modulo 5 - Formularios\Fin\BlazorPeliculas\Server\bin\Debug\net7.0\BlazorDebugProxy\BrowserDebugHost.dll
+C:\REPOS\BlazorCurso\BlazorPeliculas\ASP.NET Core 7\Modulo 5 - Formularios\Fin\BlazorPeliculas\Server\bin\Debug\net7.0\BlazorDebugProxy\BrowserDebugHost.runtimeconfig.json
+C:\REPOS\BlazorCurso\BlazorPeliculas\ASP.NET Core 7\Modulo 5 - Formularios\Fin\BlazorPeliculas\Server\bin\Debug\net7.0\BlazorDebugProxy\BrowserDebugProxy.dll
+C:\REPOS\BlazorCurso\BlazorPeliculas\ASP.NET Core 7\Modulo 5 - Formularios\Fin\BlazorPeliculas\Server\bin\Debug\net7.0\BlazorDebugProxy\Microsoft.CodeAnalysis.CSharp.dll
+C:\REPOS\BlazorCurso\BlazorPeliculas\ASP.NET Core 7\Modulo 5 - Formularios\Fin\BlazorPeliculas\Server\bin\Debug\net7.0\BlazorDebugProxy\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\REPOS\BlazorCurso\BlazorPeliculas\ASP.NET Core 7\Modulo 5 - Formularios\Fin\BlazorPeliculas\Server\bin\Debug\net7.0\BlazorDebugProxy\Microsoft.CodeAnalysis.dll
+C:\REPOS\BlazorCurso\BlazorPeliculas\ASP.NET Core 7\Modulo 5 - Formularios\Fin\BlazorPeliculas\Server\bin\Debug\net7.0\BlazorDebugProxy\Microsoft.CodeAnalysis.Scripting.dll
+C:\REPOS\BlazorCurso\BlazorPeliculas\ASP.NET Core 7\Modulo 5 - Formularios\Fin\BlazorPeliculas\Server\bin\Debug\net7.0\BlazorDebugProxy\Newtonsoft.Json.dll
+C:\REPOS\BlazorCurso\BlazorPeliculas\ASP.NET Core 7\Modulo 5 - Formularios\Fin\BlazorPeliculas\Server\bin\Debug\net7.0\BlazorPeliculas.Server.staticwebassets.runtime.json
+C:\REPOS\BlazorCurso\BlazorPeliculas\ASP.NET Core 7\Modulo 5 - Formularios\Fin\BlazorPeliculas\Server\bin\Debug\net7.0\BlazorPeliculas.Server.exe
+C:\REPOS\BlazorCurso\BlazorPeliculas\ASP.NET Core 7\Modulo 5 - Formularios\Fin\BlazorPeliculas\Server\bin\Debug\net7.0\BlazorPeliculas.Server.deps.json
+C:\REPOS\BlazorCurso\BlazorPeliculas\ASP.NET Core 7\Modulo 5 - Formularios\Fin\BlazorPeliculas\Server\bin\Debug\net7.0\BlazorPeliculas.Server.runtimeconfig.json
+C:\REPOS\BlazorCurso\BlazorPeliculas\ASP.NET Core 7\Modulo 5 - Formularios\Fin\BlazorPeliculas\Server\bin\Debug\net7.0\BlazorPeliculas.Server.dll
+C:\REPOS\BlazorCurso\BlazorPeliculas\ASP.NET Core 7\Modulo 5 - Formularios\Fin\BlazorPeliculas\Server\bin\Debug\net7.0\BlazorPeliculas.Server.pdb
+C:\REPOS\BlazorCurso\BlazorPeliculas\ASP.NET Core 7\Modulo 5 - Formularios\Fin\BlazorPeliculas\Server\bin\Debug\net7.0\Blazored.Typeahead.dll
+C:\REPOS\BlazorCurso\BlazorPeliculas\ASP.NET Core 7\Modulo 5 - Formularios\Fin\BlazorPeliculas\Server\bin\Debug\net7.0\CurrieTechnologies.Razor.SweetAlert2.dll
+C:\REPOS\BlazorCurso\BlazorPeliculas\ASP.NET Core 7\Modulo 5 - Formularios\Fin\BlazorPeliculas\Server\bin\Debug\net7.0\Markdig.dll
+C:\REPOS\BlazorCurso\BlazorPeliculas\ASP.NET Core 7\Modulo 5 - Formularios\Fin\BlazorPeliculas\Server\bin\Debug\net7.0\MathNet.Numerics.dll
+C:\REPOS\BlazorCurso\BlazorPeliculas\ASP.NET Core 7\Modulo 5 - Formularios\Fin\BlazorPeliculas\Server\bin\Debug\net7.0\Microsoft.AspNetCore.Components.WebAssembly.dll
+C:\REPOS\BlazorCurso\BlazorPeliculas\ASP.NET Core 7\Modulo 5 - Formularios\Fin\BlazorPeliculas\Server\bin\Debug\net7.0\Microsoft.AspNetCore.Components.WebAssembly.Server.dll
+C:\REPOS\BlazorCurso\BlazorPeliculas\ASP.NET Core 7\Modulo 5 - Formularios\Fin\BlazorPeliculas\Server\bin\Debug\net7.0\Microsoft.JSInterop.WebAssembly.dll
+C:\REPOS\BlazorCurso\BlazorPeliculas\ASP.NET Core 7\Modulo 5 - Formularios\Fin\BlazorPeliculas\Server\bin\Debug\net7.0\BlazorPeliculas.Client.dll
+C:\REPOS\BlazorCurso\BlazorPeliculas\ASP.NET Core 7\Modulo 5 - Formularios\Fin\BlazorPeliculas\Server\bin\Debug\net7.0\BlazorPeliculas.Shared.dll
+C:\REPOS\BlazorCurso\BlazorPeliculas\ASP.NET Core 7\Modulo 5 - Formularios\Fin\BlazorPeliculas\Server\bin\Debug\net7.0\BlazorPeliculas.Client.pdb
+C:\REPOS\BlazorCurso\BlazorPeliculas\ASP.NET Core 7\Modulo 5 - Formularios\Fin\BlazorPeliculas\Server\bin\Debug\net7.0\BlazorPeliculas.Shared.pdb
+C:\REPOS\BlazorCurso\BlazorPeliculas\ASP.NET Core 7\Modulo 5 - Formularios\Fin\BlazorPeliculas\Server\obj\Debug\net7.0\BlazorPeliculas.Server.csproj.AssemblyReference.cache
+C:\REPOS\BlazorCurso\BlazorPeliculas\ASP.NET Core 7\Modulo 5 - Formularios\Fin\BlazorPeliculas\Server\obj\Debug\net7.0\BlazorPeliculas.Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\REPOS\BlazorCurso\BlazorPeliculas\ASP.NET Core 7\Modulo 5 - Formularios\Fin\BlazorPeliculas\Server\obj\Debug\net7.0\BlazorPeliculas.Server.AssemblyInfoInputs.cache
+C:\REPOS\BlazorCurso\BlazorPeliculas\ASP.NET Core 7\Modulo 5 - Formularios\Fin\BlazorPeliculas\Server\obj\Debug\net7.0\BlazorPeliculas.Server.AssemblyInfo.cs
+C:\REPOS\BlazorCurso\BlazorPeliculas\ASP.NET Core 7\Modulo 5 - Formularios\Fin\BlazorPeliculas\Server\obj\Debug\net7.0\BlazorPeliculas.Server.csproj.CoreCompileInputs.cache
+C:\REPOS\BlazorCurso\BlazorPeliculas\ASP.NET Core 7\Modulo 5 - Formularios\Fin\BlazorPeliculas\Server\obj\Debug\net7.0\BlazorPeliculas.Server.MvcApplicationPartsAssemblyInfo.cache
+C:\REPOS\BlazorCurso\BlazorPeliculas\ASP.NET Core 7\Modulo 5 - Formularios\Fin\BlazorPeliculas\Server\obj\Debug\net7.0\BlazorPeliculas.Server.RazorAssemblyInfo.cache
+C:\REPOS\BlazorCurso\BlazorPeliculas\ASP.NET Core 7\Modulo 5 - Formularios\Fin\BlazorPeliculas\Server\obj\Debug\net7.0\BlazorPeliculas.Server.RazorAssemblyInfo.cs
+C:\REPOS\BlazorCurso\BlazorPeliculas\ASP.NET Core 7\Modulo 5 - Formularios\Fin\BlazorPeliculas\Server\obj\Debug\net7.0\BlazorPeliculas.Server.sourcelink.json
+C:\REPOS\BlazorCurso\BlazorPeliculas\ASP.NET Core 7\Modulo 5 - Formularios\Fin\BlazorPeliculas\Server\obj\Debug\net7.0\staticwebassets.build.json
+C:\REPOS\BlazorCurso\BlazorPeliculas\ASP.NET Core 7\Modulo 5 - Formularios\Fin\BlazorPeliculas\Server\obj\Debug\net7.0\staticwebassets.development.json
+C:\REPOS\BlazorCurso\BlazorPeliculas\ASP.NET Core 7\Modulo 5 - Formularios\Fin\BlazorPeliculas\Server\obj\Debug\net7.0\staticwebassets\msbuild.BlazorPeliculas.Server.Microsoft.AspNetCore.StaticWebAssets.props
+C:\REPOS\BlazorCurso\BlazorPeliculas\ASP.NET Core 7\Modulo 5 - Formularios\Fin\BlazorPeliculas\Server\obj\Debug\net7.0\staticwebassets\msbuild.build.BlazorPeliculas.Server.props
+C:\REPOS\BlazorCurso\BlazorPeliculas\ASP.NET Core 7\Modulo 5 - Formularios\Fin\BlazorPeliculas\Server\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.BlazorPeliculas.Server.props
+C:\REPOS\BlazorCurso\BlazorPeliculas\ASP.NET Core 7\Modulo 5 - Formularios\Fin\BlazorPeliculas\Server\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.BlazorPeliculas.Server.props
+C:\REPOS\BlazorCurso\BlazorPeliculas\ASP.NET Core 7\Modulo 5 - Formularios\Fin\BlazorPeliculas\Server\obj\Debug\net7.0\staticwebassets.pack.json
+C:\REPOS\BlazorCurso\BlazorPeliculas\ASP.NET Core 7\Modulo 5 - Formularios\Fin\BlazorPeliculas\Server\obj\Debug\net7.0\scopedcss\bundle\BlazorPeliculas.Server.styles.css
+C:\REPOS\BlazorCurso\BlazorPeliculas\ASP.NET Core 7\Modulo 5 - Formularios\Fin\BlazorPeliculas\Server\obj\Debug\net7.0\BlazorPe.3C4DF393.Up2Date
+C:\REPOS\BlazorCurso\BlazorPeliculas\ASP.NET Core 7\Modulo 5 - Formularios\Fin\BlazorPeliculas\Server\obj\Debug\net7.0\BlazorPeliculas.Server.dll
+C:\REPOS\BlazorCurso\BlazorPeliculas\ASP.NET Core 7\Modulo 5 - Formularios\Fin\BlazorPeliculas\Server\obj\Debug\net7.0\refint\BlazorPeliculas.Server.dll
+C:\REPOS\BlazorCurso\BlazorPeliculas\ASP.NET Core 7\Modulo 5 - Formularios\Fin\BlazorPeliculas\Server\obj\Debug\net7.0\BlazorPeliculas.Server.pdb
+C:\REPOS\BlazorCurso\BlazorPeliculas\ASP.NET Core 7\Modulo 5 - Formularios\Fin\BlazorPeliculas\Server\obj\Debug\net7.0\BlazorPeliculas.Server.genruntimeconfig.cache
+C:\REPOS\BlazorCurso\BlazorPeliculas\ASP.NET Core 7\Modulo 5 - Formularios\Fin\BlazorPeliculas\Server\obj\Debug\net7.0\ref\BlazorPeliculas.Server.dll
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Server\bin\Debug\net7.0\BlazorPeliculas.Client.staticwebassets.runtime.json
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Server\bin\Debug\net7.0\appsettings.Development.json
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Server\bin\Debug\net7.0\appsettings.json
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Server\bin\Debug\net7.0\BlazorDebugProxy\BrowserDebugHost.dll
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Server\bin\Debug\net7.0\BlazorDebugProxy\BrowserDebugHost.runtimeconfig.json
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Server\bin\Debug\net7.0\BlazorDebugProxy\BrowserDebugProxy.dll
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Server\bin\Debug\net7.0\BlazorDebugProxy\Microsoft.CodeAnalysis.CSharp.dll
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Server\bin\Debug\net7.0\BlazorDebugProxy\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Server\bin\Debug\net7.0\BlazorDebugProxy\Microsoft.CodeAnalysis.dll
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Server\bin\Debug\net7.0\BlazorDebugProxy\Microsoft.CodeAnalysis.Scripting.dll
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Server\bin\Debug\net7.0\BlazorDebugProxy\Newtonsoft.Json.dll
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Server\bin\Debug\net7.0\BlazorPeliculas.Server.staticwebassets.runtime.json
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Server\bin\Debug\net7.0\BlazorPeliculas.Server.exe
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Server\bin\Debug\net7.0\BlazorPeliculas.Server.deps.json
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Server\bin\Debug\net7.0\BlazorPeliculas.Server.runtimeconfig.json
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Server\bin\Debug\net7.0\BlazorPeliculas.Server.dll
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Server\bin\Debug\net7.0\BlazorPeliculas.Server.pdb
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Server\bin\Debug\net7.0\Blazored.Typeahead.dll
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Server\bin\Debug\net7.0\CurrieTechnologies.Razor.SweetAlert2.dll
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Server\bin\Debug\net7.0\Markdig.dll
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Server\bin\Debug\net7.0\MathNet.Numerics.dll
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Server\bin\Debug\net7.0\Microsoft.AspNetCore.Components.WebAssembly.dll
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Server\bin\Debug\net7.0\Microsoft.AspNetCore.Components.WebAssembly.Server.dll
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Server\bin\Debug\net7.0\Microsoft.JSInterop.WebAssembly.dll
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Server\bin\Debug\net7.0\BlazorPeliculas.Client.dll
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Server\bin\Debug\net7.0\BlazorPeliculas.Shared.dll
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Server\bin\Debug\net7.0\BlazorPeliculas.Client.pdb
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Server\bin\Debug\net7.0\BlazorPeliculas.Shared.pdb
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Server\obj\Debug\net7.0\BlazorPeliculas.Server.csproj.AssemblyReference.cache
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Server\obj\Debug\net7.0\BlazorPeliculas.Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Server\obj\Debug\net7.0\BlazorPeliculas.Server.AssemblyInfoInputs.cache
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Server\obj\Debug\net7.0\BlazorPeliculas.Server.AssemblyInfo.cs
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Server\obj\Debug\net7.0\BlazorPeliculas.Server.csproj.CoreCompileInputs.cache
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Server\obj\Debug\net7.0\BlazorPeliculas.Server.MvcApplicationPartsAssemblyInfo.cache
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Server\obj\Debug\net7.0\BlazorPeliculas.Server.RazorAssemblyInfo.cache
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Server\obj\Debug\net7.0\BlazorPeliculas.Server.RazorAssemblyInfo.cs
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Server\obj\Debug\net7.0\staticwebassets.build.json
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Server\obj\Debug\net7.0\staticwebassets.development.json
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Server\obj\Debug\net7.0\staticwebassets\msbuild.BlazorPeliculas.Server.Microsoft.AspNetCore.StaticWebAssets.props
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Server\obj\Debug\net7.0\staticwebassets\msbuild.build.BlazorPeliculas.Server.props
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Server\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.BlazorPeliculas.Server.props
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Server\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.BlazorPeliculas.Server.props
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Server\obj\Debug\net7.0\staticwebassets.pack.json
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Server\obj\Debug\net7.0\scopedcss\bundle\BlazorPeliculas.Server.styles.css
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Server\obj\Debug\net7.0\BlazorPe.3C4DF393.Up2Date
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Server\obj\Debug\net7.0\BlazorPeliculas.Server.dll
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Server\obj\Debug\net7.0\refint\BlazorPeliculas.Server.dll
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Server\obj\Debug\net7.0\BlazorPeliculas.Server.pdb
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Server\obj\Debug\net7.0\BlazorPeliculas.Server.genruntimeconfig.cache
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Server\obj\Debug\net7.0\ref\BlazorPeliculas.Server.dll
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Server\bin\Debug\net7.0\Azure.Core.dll
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Server\bin\Debug\net7.0\Azure.Identity.dll
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Server\bin\Debug\net7.0\Humanizer.dll
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Server\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Server\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Server\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Server\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Server\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Server\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Server\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Server\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Server\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Server\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Server\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Server\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Server\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Server\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Server\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Server\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Server\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Server\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Server\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Server\bin\Debug\net7.0\System.CodeDom.dll
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Server\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Server\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Server\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Server\bin\Debug\net7.0\System.Memory.Data.dll
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Server\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Server\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Server\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Server\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Server\bin\Debug\net7.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Server\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Server\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Server\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Server\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Server\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Server\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Server\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Server\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Server\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Server\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Server\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Server\bin\Debug\net7.0\AutoMapper.dll
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Server\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

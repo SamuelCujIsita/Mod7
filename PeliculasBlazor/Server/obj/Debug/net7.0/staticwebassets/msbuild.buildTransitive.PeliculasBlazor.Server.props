@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\PeliculasBlazor.Server.props" />
-</Project>

@@ -1,0 +1,23 @@
+C:\REPOS\BlazorCurso\BlazorPeliculas\ASP.NET Core 7\Modulo 5 - Formularios\Fin\BlazorPeliculas\Shared\bin\Debug\net7.0\BlazorPeliculas.Shared.deps.json
+C:\REPOS\BlazorCurso\BlazorPeliculas\ASP.NET Core 7\Modulo 5 - Formularios\Fin\BlazorPeliculas\Shared\bin\Debug\net7.0\BlazorPeliculas.Shared.dll
+C:\REPOS\BlazorCurso\BlazorPeliculas\ASP.NET Core 7\Modulo 5 - Formularios\Fin\BlazorPeliculas\Shared\bin\Debug\net7.0\BlazorPeliculas.Shared.pdb
+C:\REPOS\BlazorCurso\BlazorPeliculas\ASP.NET Core 7\Modulo 5 - Formularios\Fin\BlazorPeliculas\Shared\obj\Debug\net7.0\BlazorPeliculas.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\REPOS\BlazorCurso\BlazorPeliculas\ASP.NET Core 7\Modulo 5 - Formularios\Fin\BlazorPeliculas\Shared\obj\Debug\net7.0\BlazorPeliculas.Shared.AssemblyInfoInputs.cache
+C:\REPOS\BlazorCurso\BlazorPeliculas\ASP.NET Core 7\Modulo 5 - Formularios\Fin\BlazorPeliculas\Shared\obj\Debug\net7.0\BlazorPeliculas.Shared.AssemblyInfo.cs
+C:\REPOS\BlazorCurso\BlazorPeliculas\ASP.NET Core 7\Modulo 5 - Formularios\Fin\BlazorPeliculas\Shared\obj\Debug\net7.0\BlazorPeliculas.Shared.csproj.CoreCompileInputs.cache
+C:\REPOS\BlazorCurso\BlazorPeliculas\ASP.NET Core 7\Modulo 5 - Formularios\Fin\BlazorPeliculas\Shared\obj\Debug\net7.0\BlazorPeliculas.Shared.sourcelink.json
+C:\REPOS\BlazorCurso\BlazorPeliculas\ASP.NET Core 7\Modulo 5 - Formularios\Fin\BlazorPeliculas\Shared\obj\Debug\net7.0\BlazorPeliculas.Shared.dll
+C:\REPOS\BlazorCurso\BlazorPeliculas\ASP.NET Core 7\Modulo 5 - Formularios\Fin\BlazorPeliculas\Shared\obj\Debug\net7.0\refint\BlazorPeliculas.Shared.dll
+C:\REPOS\BlazorCurso\BlazorPeliculas\ASP.NET Core 7\Modulo 5 - Formularios\Fin\BlazorPeliculas\Shared\obj\Debug\net7.0\BlazorPeliculas.Shared.pdb
+C:\REPOS\BlazorCurso\BlazorPeliculas\ASP.NET Core 7\Modulo 5 - Formularios\Fin\BlazorPeliculas\Shared\obj\Debug\net7.0\ref\BlazorPeliculas.Shared.dll
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Shared\bin\Debug\net7.0\BlazorPeliculas.Shared.deps.json
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Shared\bin\Debug\net7.0\BlazorPeliculas.Shared.dll
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Shared\bin\Debug\net7.0\BlazorPeliculas.Shared.pdb
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Shared\obj\Debug\net7.0\BlazorPeliculas.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Shared\obj\Debug\net7.0\BlazorPeliculas.Shared.AssemblyInfoInputs.cache
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Shared\obj\Debug\net7.0\BlazorPeliculas.Shared.AssemblyInfo.cs
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Shared\obj\Debug\net7.0\BlazorPeliculas.Shared.csproj.CoreCompileInputs.cache
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Shared\obj\Debug\net7.0\BlazorPeliculas.Shared.dll
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Shared\obj\Debug\net7.0\refint\BlazorPeliculas.Shared.dll
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Shared\obj\Debug\net7.0\BlazorPeliculas.Shared.pdb
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Shared\obj\Debug\net7.0\ref\BlazorPeliculas.Shared.dll
