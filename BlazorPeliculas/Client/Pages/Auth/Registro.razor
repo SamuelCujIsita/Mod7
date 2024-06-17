@@ -1,0 +1,51 @@
+﻿@page "/Registro"
+@using BlazorPeliculas.Client.Auth
+@inject IRepositorio repositorio
+@inject SweetAlertService swal
+@inject ILoginService loginService
+@inject NavigationManager navigationManager
+
+<h3>Registro</h3>
+
+<EditForm Model="userInfo" OnValidSubmit="CrearUsuario">
+    <DataAnnotationsValidator />
+        <div class="mb-3">
+            <label>Email: </label>
+            <div>
+                <InputText class="form-control" @bind-Value = "userInfo.Email" />
+                <ValidationMessage For="@(()=> userInfo.Email)" />
+            </div>
+        </div>
+
+        <div class="mb-3">
+            <label>Password: </label>
+            <div>
+                <InputText type="Password" class="form-control" @bind-Value="userInfo.Password" />
+                <ValidationMessage For="@(()=> userInfo.Password)" />
+            </div>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Registrarse</button>
+</EditForm>
+
+@code {
+    private UserInfoDTO userInfo = new UserInfoDTO();
+
+    private async Task CrearUsuario()
+    {
+        var respuestahttp = await repositorio.Post<UserInfoDTO, UserTokenDTO>("api/cuentas/crear", userInfo);
+
+        if (respuestahttp.Error)
+        {
+            var mensajeError = await respuestahttp.ObtenerMensajeError();
+            await swal.FireAsync("Error", mensajeError, SweetAlertIcon.Error);
+        }
+        else
+        {
+            await loginService.Login(respuestahttp.Response!.Token);
+            navigationManager.NavigateTo("");
+        }
+
+
+    }
+}

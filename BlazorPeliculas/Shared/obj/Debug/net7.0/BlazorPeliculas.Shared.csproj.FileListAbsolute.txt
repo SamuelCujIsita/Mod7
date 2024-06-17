@@ -21,3 +21,4 @@ C:\REPOS\BlazorProyecto\BlazorPeliculas\Shared\obj\Debug\net7.0\BlazorPeliculas.
 C:\REPOS\BlazorProyecto\BlazorPeliculas\Shared\obj\Debug\net7.0\refint\BlazorPeliculas.Shared.dll
 C:\REPOS\BlazorProyecto\BlazorPeliculas\Shared\obj\Debug\net7.0\BlazorPeliculas.Shared.pdb
 C:\REPOS\BlazorProyecto\BlazorPeliculas\Shared\obj\Debug\net7.0\ref\BlazorPeliculas.Shared.dll
+C:\REPOS\BlazorProyecto\BlazorPeliculas\Shared\obj\Debug\net7.0\BlazorPeliculas.Shared.sourcelink.json

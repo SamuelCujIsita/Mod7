@@ -1,7 +1,11 @@
 using BlazorPeliculas.Server;
 using BlazorPeliculas.Server.Helpers;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.ResponseCompression;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 using System.Text.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -23,7 +27,26 @@ builder.Services.AddHttpContextAccessor();//ACCEDER AL CONTEXTO HTTP Y CONTENER 
 
 builder.Services.AddAutoMapper(typeof(Program));//config automapper
 
+builder.Services.AddIdentity<IdentityUser, IdentityRole>()
+    .AddEntityFrameworkStores<ApplicationDbContext>()
+    .AddDefaultTokenProviders();
 
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+    .AddJwtBearer(option =>
+    option.TokenValidationParameters = new TokenValidationParameters
+    {
+        ValidateIssuer = false, //validar emisor
+        ValidateAudience = false,
+        ValidateLifetime = true,
+        ValidateIssuerSigningKey = true,
+        IssuerSigningKey = new SymmetricSecurityKey(
+            Encoding.UTF8.GetBytes(builder.Configuration["jwtkey"])
+            ),
+        ClockSkew = TimeSpan.Zero
+    }
+    );
+
+//jsonwebtoken -> string que contien cifrado los claims(info del user que puedo confiar) del usuario 
 
 var app = builder.Build();
 
@@ -46,6 +69,8 @@ app.UseStaticFiles();//descargar archivos estaticos del wwwwroot
 
 app.UseRouting();
 
+app.UseAuthorization();
+app.UseAuthorization();
 
 app.MapRazorPages();
 app.MapControllers();

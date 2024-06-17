@@ -4,6 +4,15 @@
 
 <PageTitle>Blazor Películas</PageTitle>
 
+<AuthorizeView Roles="admin">
+    <Authorized>
+        <p>Estas Autorizado Usuario: @context.User.Identity!.Name</p>
+    </Authorized>
+    <NotAuthorized>
+        <p>NO ESTAS AUTORIZADO</p>
+    </NotAuthorized>
+</AuthorizeView>
+
 <div>
     <h3>Películas en Cartelera</h3>
     <ListadoPeliculas Peliculas="EnCartelera" />
@@ -22,8 +31,14 @@
     protected override async Task OnInitializedAsync()
     {
         var respuestaHttp = await repositorio.Get<HomePageDTO>("api/peliculas");
-        FuturosEstrenos = respuestaHttp.Response.ProximosEstrenos;
-        EnCartelera = respuestaHttp.Response.PeliculasEnCartelera;
+        if (respuestaHttp.HttpResponseMessage.IsSuccessStatusCode)
+        {
+            FuturosEstrenos = respuestaHttp.Response.ProximosEstrenos;
+            EnCartelera = respuestaHttp.Response.PeliculasEnCartelera;
+        } else
+        {
+            Console.WriteLine(respuestaHttp.HttpResponseMessage.StatusCode);
+        }
 
     }
 }

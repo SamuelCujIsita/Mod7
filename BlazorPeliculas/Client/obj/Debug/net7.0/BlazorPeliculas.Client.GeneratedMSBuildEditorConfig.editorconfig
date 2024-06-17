@@ -42,8 +42,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWN0b3Jlc1xJbmRpY2VBY3RvcmVzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/REPOS/BlazorProyecto/BlazorPeliculas/Client/Pages/FetchData.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
+[C:/REPOS/BlazorProyecto/BlazorPeliculas/Client/Pages/Auth/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aFxMb2dpbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/REPOS/BlazorProyecto/BlazorPeliculas/Client/Pages/Auth/Logout.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aFxMb2dvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/REPOS/BlazorProyecto/BlazorPeliculas/Client/Pages/Auth/Registro.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aFxSZWdpc3Ryby5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/REPOS/BlazorProyecto/BlazorPeliculas/Client/Pages/Generos/CrearGenero.razor]
@@ -92,6 +100,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/REPOS/BlazorProyecto/BlazorPeliculas/Client/Shared/CustomNotFound.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEN1c3RvbU5vdEZvdW5kLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/REPOS/BlazorProyecto/BlazorPeliculas/Client/Shared/EnlacesAuth.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEVubGFjZXNBdXRoLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/REPOS/BlazorProyecto/BlazorPeliculas/Client/Shared/InputImg.razor]

@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "C:\\REPOS\\BlazorProyecto\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4AC4982A-84A8-494F-9D7E-3EFCF72D72DD}|BlazorPeliculas\\Client\\BlazorPeliculas.Client.csproj|c:\\repos\\blazorproyecto\\blazorpeliculas\\client\\pages\\peliculas\\visualizarpelicula.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4AC4982A-84A8-494F-9D7E-3EFCF72D72DD}|BlazorPeliculas\\Client\\BlazorPeliculas.Client.csproj|solutionrelative:blazorpeliculas\\client\\pages\\peliculas\\visualizarpelicula.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{DE16F8B7-D38F-4239-9391-E53FFFB2B6D3}|BlazorPeliculas\\Server\\BlazorPeliculas.Server.csproj|c:\\repos\\blazorproyecto\\blazorpeliculas\\server\\controllers\\peliculascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE16F8B7-D38F-4239-9391-E53FFFB2B6D3}|BlazorPeliculas\\Server\\BlazorPeliculas.Server.csproj|solutionrelative:blazorpeliculas\\server\\controllers\\peliculascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AC4982A-84A8-494F-9D7E-3EFCF72D72DD}|BlazorPeliculas\\Client\\BlazorPeliculas.Client.csproj|c:\\repos\\blazorproyecto\\blazorpeliculas\\client\\shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4AC4982A-84A8-494F-9D7E-3EFCF72D72DD}|BlazorPeliculas\\Client\\BlazorPeliculas.Client.csproj|solutionrelative:blazorpeliculas\\client\\shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE16F8B7-D38F-4239-9391-E53FFFB2B6D3}|BlazorPeliculas\\Server\\BlazorPeliculas.Server.csproj|c:\\repos\\blazorproyecto\\blazorpeliculas\\server\\controllers\\generocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE16F8B7-D38F-4239-9391-E53FFFB2B6D3}|BlazorPeliculas\\Server\\BlazorPeliculas.Server.csproj|solutionrelative:blazorpeliculas\\server\\controllers\\generocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE16F8B7-D38F-4239-9391-E53FFFB2B6D3}|BlazorPeliculas\\Server\\BlazorPeliculas.Server.csproj|c:\\repos\\blazorproyecto\\blazorpeliculas\\server\\controllers\\cuentascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE16F8B7-D38F-4239-9391-E53FFFB2B6D3}|BlazorPeliculas\\Server\\BlazorPeliculas.Server.csproj|solutionrelative:blazorpeliculas\\server\\controllers\\cuentascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE16F8B7-D38F-4239-9391-E53FFFB2B6D3}|BlazorPeliculas\\Server\\BlazorPeliculas.Server.csproj|c:\\repos\\blazorproyecto\\blazorpeliculas\\server\\controllers\\actorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE16F8B7-D38F-4239-9391-E53FFFB2B6D3}|BlazorPeliculas\\Server\\BlazorPeliculas.Server.csproj|solutionrelative:blazorpeliculas\\server\\controllers\\actorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,15 +38,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "VisualizarPelicula.razor",
-              "DocumentMoniker": "C:\\REPOS\\BlazorProyecto\\BlazorPeliculas\\Client\\Pages\\Peliculas\\VisualizarPelicula.razor",
-              "RelativeDocumentMoniker": "BlazorPeliculas\\Client\\Pages\\Peliculas\\VisualizarPelicula.razor",
-              "ToolTip": "C:\\REPOS\\BlazorProyecto\\BlazorPeliculas\\Client\\Pages\\Peliculas\\VisualizarPelicula.razor",
-              "RelativeToolTip": "BlazorPeliculas\\Client\\Pages\\Peliculas\\VisualizarPelicula.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAeAAAA",
+              "DocumentIndex": 1,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\REPOS\\BlazorProyecto\\BlazorPeliculas\\Client\\Shared\\NavMenu.razor",
+              "RelativeDocumentMoniker": "BlazorPeliculas\\Client\\Shared\\NavMenu.razor",
+              "ToolTip": "C:\\REPOS\\BlazorProyecto\\BlazorPeliculas\\Client\\Shared\\NavMenu.razor",
+              "RelativeToolTip": "BlazorPeliculas\\Client\\Shared\\NavMenu.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-13T19:38:24.876Z",
+              "WhenOpened": "2024-06-17T17:42:20.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GeneroController.cs",
+              "DocumentMoniker": "C:\\REPOS\\BlazorProyecto\\BlazorPeliculas\\Server\\Controllers\\GeneroController.cs",
+              "RelativeDocumentMoniker": "BlazorPeliculas\\Server\\Controllers\\GeneroController.cs",
+              "ToolTip": "C:\\REPOS\\BlazorProyecto\\BlazorPeliculas\\Server\\Controllers\\GeneroController.cs",
+              "RelativeToolTip": "BlazorPeliculas\\Server\\Controllers\\GeneroController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T17:39:58.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CuentasController.cs",
+              "DocumentMoniker": "C:\\REPOS\\BlazorProyecto\\BlazorPeliculas\\Server\\Controllers\\CuentasController.cs",
+              "RelativeDocumentMoniker": "BlazorPeliculas\\Server\\Controllers\\CuentasController.cs",
+              "ToolTip": "C:\\REPOS\\BlazorProyecto\\BlazorPeliculas\\Server\\Controllers\\CuentasController.cs",
+              "RelativeToolTip": "BlazorPeliculas\\Server\\Controllers\\CuentasController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T17:39:45.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ActoresController.cs",
+              "DocumentMoniker": "C:\\REPOS\\BlazorProyecto\\BlazorPeliculas\\Server\\Controllers\\ActoresController.cs",
+              "RelativeDocumentMoniker": "BlazorPeliculas\\Server\\Controllers\\ActoresController.cs",
+              "ToolTip": "C:\\REPOS\\BlazorProyecto\\BlazorPeliculas\\Server\\Controllers\\ActoresController.cs",
+              "RelativeToolTip": "BlazorPeliculas\\Server\\Controllers\\ActoresController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAxwA0AAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T17:39:05.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PeliculasController.cs",
+              "DocumentMoniker": "C:\\REPOS\\BlazorProyecto\\BlazorPeliculas\\Server\\Controllers\\PeliculasController.cs",
+              "RelativeDocumentMoniker": "BlazorPeliculas\\Server\\Controllers\\PeliculasController.cs",
+              "ToolTip": "C:\\REPOS\\BlazorProyecto\\BlazorPeliculas\\Server\\Controllers\\PeliculasController.cs",
+              "RelativeToolTip": "BlazorPeliculas\\Server\\Controllers\\PeliculasController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAE4AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T17:20:02.901Z",
               "EditorCaption": ""
             }
           ]

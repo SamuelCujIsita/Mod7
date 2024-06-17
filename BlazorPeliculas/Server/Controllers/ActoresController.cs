@@ -2,6 +2,8 @@
 using BlazorPeliculas.Server.Helpers;
 using BlazorPeliculas.Shared.DTOs;
 using BlazorPeliculas.Shared.Entidades;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -9,6 +11,7 @@ namespace BlazorPeliculas.Server.Controllers
 {
     [ApiController]
     [Route("api/actores")]
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
     public class ActoresController : ControllerBase
     {
         private readonly ApplicationDbContext context;
@@ -30,6 +33,7 @@ namespace BlazorPeliculas.Server.Controllers
             [FromQuery] PaginacionDTO paginacion)
         {
             var queryable = context.Actores.AsQueryable();
+            Console.WriteLine(queryable.ToQueryString());
             await HttpContext
                 .InsertarParametrosPaginacionEnRespuesta(queryable, paginacion.CantidadRegistro);
 

@@ -2,6 +2,7 @@
 @inject IRepositorio repositorio
 @inject NavigationManager navigationManager
 
+
 <h3>Filtro Películas</h3>
 
 <div class="row g-3 align-items-center mb-3">
@@ -34,12 +35,10 @@
             <label class="form-check-label" for="masVotadas">Más Votadas</label>
         </div>
     </div>
-
     <div class="col-12">
         <button type="button" class="btn btn-primary" @onclick="CargarNuevasPeliculas">Filtrar</button>
         <button type="button" class="btn btn-danger" @onclick="LimpiarOnClick">Limpiar</button>
     </div>
-
 </div>
 
 <Paginacion PaginaActual="paginaActual" PaginasTotales="paginasTotales"
