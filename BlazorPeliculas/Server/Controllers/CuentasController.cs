@@ -1,4 +1,6 @@
 ﻿using BlazorPeliculas.Shared.DTOs;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
@@ -38,7 +40,7 @@ namespace BlazorPeliculas.Server.Controllers
 
             if (resultado.Succeeded)
             {
-                return BuildToken(model);
+                return await BuildToken(model);
             }
             else
             {
@@ -54,7 +56,7 @@ namespace BlazorPeliculas.Server.Controllers
 
             if (resultado.Succeeded)
             {
-                return BuildToken(model);
+                return await BuildToken(model);
             } else
             {
                 return BadRequest("Intento de Login fallido");
@@ -64,7 +66,7 @@ namespace BlazorPeliculas.Server.Controllers
 
 
         //Crear JSONWEBTOKEN
-        private UserTokenDTO BuildToken(UserInfoDTO userInfo)
+        private async Task <UserTokenDTO> BuildToken(UserInfoDTO userInfo)
         {
             var claims = new List<Claim>
             {
@@ -73,10 +75,18 @@ namespace BlazorPeliculas.Server.Controllers
 
             };
 
+            var usuario= await userManager.FindByEmailAsync(userInfo.Email);
+            var roles = await userManager.GetRolesAsync(usuario!);
+
+            foreach (var role in roles)
+            {
+                claims.Add(new Claim(ClaimTypes.Role, role));
+            }
+
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(configuration["jwtkey"]));
             var cred = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
 
-            var expiration = DateTime.UtcNow.AddHours(1);
+            var expiration = DateTime.UtcNow.AddYears(1);
 
             var token = new JwtSecurityToken(
                 issuer: null,
@@ -91,6 +101,20 @@ namespace BlazorPeliculas.Server.Controllers
             };
 
         }
+
+        [HttpGet("renovarToken")]
+        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
+        public async Task<ActionResult<UserTokenDTO>> Renovar()
+        {
+            var userInfo = new UserInfoDTO()
+            {
+                Email = HttpContext.User.Identity!.Name!
+            };
+
+            return await BuildToken(userInfo);
+
+        }
+
 
 
     }

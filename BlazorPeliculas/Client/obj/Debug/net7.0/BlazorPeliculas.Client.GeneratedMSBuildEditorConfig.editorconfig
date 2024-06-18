@@ -94,6 +94,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGVsaWN1bGFzXFZpc3VhbGl6YXJQZWxpY3VsYS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/REPOS/BlazorProyecto/BlazorPeliculas/Client/Pages/Usuarios/EditarUsuario.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXN1YXJpb3NcRWRpdGFyVXN1YXJpby5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/REPOS/BlazorProyecto/BlazorPeliculas/Client/Pages/Usuarios/IndiceUsuarios.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXN1YXJpb3NcSW5kaWNlVXN1YXJpb3MucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/REPOS/BlazorProyecto/BlazorPeliculas/Client/Shared/BindEvento.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEJpbmRFdmVudG8ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
@@ -132,6 +140,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/REPOS/BlazorProyecto/BlazorPeliculas/Client/Shared/PeliculaIndividual.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFBlbGljdWxhSW5kaXZpZHVhbC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/REPOS/BlazorProyecto/BlazorPeliculas/Client/Shared/Rating.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFJhdGluZy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/REPOS/BlazorProyecto/BlazorPeliculas/Client/Shared/SelectorMultiple.razor]

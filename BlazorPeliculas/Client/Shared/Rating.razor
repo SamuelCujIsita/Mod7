@@ -1,0 +1,34 @@
+﻿
+
+<select @bind:get="PuntajeSeleccionado" @bind:set="SetAysnc">
+    @for (int i = 1; i <= MaximoPuntaje; i++)
+    {
+        <option value="@i">@i</option>
+    }
+</select>
+
+@code {
+    [Parameter] public int MaximoPuntaje { get; set; }
+    [Parameter] public int PuntajeSeleccionado { get; set; }
+    [Parameter] public EventCallback<int> OnRating { get; set; }
+    private bool votado = false;
+
+    protected override void OnInitialized()
+    {
+        int voto = PuntajeSeleccionado;
+    }
+
+    private async Task SetAysnc(int i)
+    {
+        votado = true;
+        await OnRating.InvokeAsync(i);
+    }
+
+    private void onMouseOverHandle(int numeroEstrella)
+    {
+        if (!votado)
+        {
+            PuntajeSeleccionado = numeroEstrella;
+        }
+    }
+}

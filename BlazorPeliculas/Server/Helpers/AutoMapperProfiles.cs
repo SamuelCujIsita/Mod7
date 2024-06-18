@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using BlazorPeliculas.Shared.DTOs;
 using BlazorPeliculas.Shared.Entidades;
 
 namespace BlazorPeliculas.Server.Helpers
@@ -14,6 +15,8 @@ namespace BlazorPeliculas.Server.Helpers
             CreateMap<Pelicula, Pelicula>()//configurar el mapeo en este caso es de actor a actor
                 .ForMember(x => x.Poster, option => option.Ignore());//ignoramos el campo foto
 
+            CreateMap<VotoPeliculaDTO, VotoPelicula>();
         }
+
     }
 }
