@@ -1,0 +1,25 @@
+﻿@inject IJSRuntime js
+@inject RepositorioPeliculas repositorio
+@inject NavigationManager navigationManager
+
+
+<div style="display: flex; flex-wrap:wrap; align-items: center;">
+    <ListadoGenerico Listado="Peliculas">
+        <HayRegistros Context="pelicula">
+            <PeliculaIndividual Pelicula="pelicula"
+                                EliminarPelicula="EliminarPelicula" @key="pelicula.Id" />
+        </HayRegistros>
+    </ListadoGenerico>
+</div>
+
+@code {
+    [Parameter]
+    [EditorRequired]
+    public List<Pelicula>? Peliculas { get; set; }
+
+    private async Task EliminarPelicula(Pelicula pelicula)
+    {
+        await repositorio.Delete(pelicula.Id);
+        Peliculas.Remove(pelicula);
+    }
+}

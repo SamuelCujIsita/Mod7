@@ -1,0 +1,19 @@
+﻿@page "/actores/crear"
+@inject NavigationManager navigationManager
+@inject RepositorioActores repositorio
+@attribute [Authorize(Roles = "admin")]
+
+<h3>Crear Actor</h3>
+
+<FormularioActores OnValidSubmit="Crear" Actor="Actor" />
+
+@code {
+    private Actor Actor = new Actor();
+
+    private async Task Crear()
+    {
+        await repositorio.Post(Actor);
+        navigationManager.NavigateTo("actores");
+
+    }
+}

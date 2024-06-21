@@ -1,0 +1,21 @@
+﻿@page "/generos/crear"
+@inject NavigationManager navigationManager
+@inject RepositorioGenero repositorio
+@inject IMostrarMensajes mostrarMensaje
+@attribute [Authorize(Roles = "admin")]
+
+<h3>Crear Género</h3>
+
+<FormularioGenero @ref="formularioGenero" Genero="Genero" OnValidSubmit="Crear" />
+
+@code {
+    private Genero Genero = new Genero();
+    private FormularioGenero? formularioGenero;
+
+    private async Task Crear()
+    {
+        await repositorio.Post(Genero);
+        navigationManager.NavigateTo("/generos");
+
+    }
+}

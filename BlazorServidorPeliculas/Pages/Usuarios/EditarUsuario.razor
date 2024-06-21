@@ -1,0 +1,75 @@
+﻿@page "/usuarios/editar/{UsuarioId}"
+@inject RepositorioUsuarios repositorio
+@inject IMostrarMensajes mostrarMensaje
+
+<h3>Editar Usuario</h3>
+
+@if (roles is null)
+{
+    <p>Cargando...</p>
+}
+else
+{
+    <div class="form-inline">
+        <select class="form-select mb-2" @bind="rolSeleccionado">
+            <option value="0">--Seleccione un rol--</option>
+            @foreach (var rol in roles)
+            {
+                <option value="@rol.Nombre">@rol.Nombre</option>
+            }
+        </select>
+
+        <button class="btn btn-info mb-2" @onclick="AsignarRol">Asignar Rol</button>
+        <button class="btn btn-danger mb-2" @onclick="RemoverRol">Remover Rol</button>
+    </div>
+}
+
+@code {
+    [Parameter]
+    public string UsuarioId { get; set; } = null!;
+    private List<RolDTO>? roles;
+    private string rolSeleccionado = "0";
+
+
+    protected override async Task OnInitializedAsync()
+    {
+        roles = await repositorio.GetRoles();
+    }
+
+    private async Task AsignarRol()
+    {
+        var esValido = await ValidarEditarRol();
+        if (!esValido)
+        {
+            return;
+        }
+
+        var rolDTO = new EditarRolDTO() { Rol = rolSeleccionado, UsuarioId = UsuarioId };
+        await repositorio.AsignarRolUsuario(rolDTO);
+        await mostrarMensaje.MostrarMensajeExitoso("Operacion Exitosa");
+    }
+
+    private async Task RemoverRol()
+    {
+        var esValido = await ValidarEditarRol();
+        if (!esValido)
+        {
+            return;
+        }
+
+        var rolDTO = new EditarRolDTO() { Rol = rolSeleccionado, UsuarioId = UsuarioId };
+        await repositorio.RemoverRolUsuario(rolDTO);
+        await mostrarMensaje.MostrarMensajeExitoso("Operacion Exitosa");
+
+    }
+
+    private async Task<bool> ValidarEditarRol()
+    {
+        if (rolSeleccionado == "0")
+        {
+            await mostrarMensaje.MostrarMensajeError("Debe seleccionar un rol");
+            return false;
+        }
+        return true;
+    }
+}

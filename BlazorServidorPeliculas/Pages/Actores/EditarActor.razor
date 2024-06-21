@@ -1,0 +1,30 @@
+﻿@page "/actores/editar/{ActorId:int}"
+@inject NavigationManager navigationManager
+@inject RepositorioActores repositorio
+@attribute [Authorize(Roles = "admin")]
+
+<h3>Editar Actor</h3>
+
+@if (Actor is null)
+{
+    <p>Cargando...</p>
+}
+else
+{
+    <FormularioActores Actor="Actor" OnValidSubmit="Editar" />
+}
+
+@code {
+    [Parameter] public int ActorId { get; set; }
+    Actor Actor;//error
+
+    protected override async Task OnInitializedAsync()
+    {
+        Actor = await repositorio.Get(ActorId);
+    }
+
+    private async Task Editar()
+    {
+        await repositorio.Put(Actor);
+    }
+}

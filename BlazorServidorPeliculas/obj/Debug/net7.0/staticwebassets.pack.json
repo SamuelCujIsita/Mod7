@@ -1,0 +1,117 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\REPOS\\BlazorServidor\\BlazorServidorPeliculas\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\BlazorServidorPeliculas.bundle.scp.css",
+      "PackagePath": "staticwebassets\\BlazorServidorPeliculas.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\REPOS\\BlazorServidor\\BlazorServidorPeliculas\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\REPOS\\BlazorServidor\\BlazorServidorPeliculas\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\REPOS\\BlazorServidor\\BlazorServidorPeliculas\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "C:\\REPOS\\BlazorServidor\\BlazorServidorPeliculas\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "C:\\REPOS\\BlazorServidor\\BlazorServidorPeliculas\\wwwroot\\css\\open-iconic\\README.md",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\README.md"
+    },
+    {
+      "Id": "C:\\REPOS\\BlazorServidor\\BlazorServidorPeliculas\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\REPOS\\BlazorServidor\\BlazorServidorPeliculas\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
+    },
+    {
+      "Id": "C:\\REPOS\\BlazorServidor\\BlazorServidorPeliculas\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
+    },
+    {
+      "Id": "C:\\REPOS\\BlazorServidor\\BlazorServidorPeliculas\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
+    },
+    {
+      "Id": "C:\\REPOS\\BlazorServidor\\BlazorServidorPeliculas\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
+    },
+    {
+      "Id": "C:\\REPOS\\BlazorServidor\\BlazorServidorPeliculas\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Id": "C:\\REPOS\\BlazorServidor\\BlazorServidorPeliculas\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\REPOS\\BlazorServidor\\BlazorServidorPeliculas\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\REPOS\\BlazorServidor\\BlazorServidorPeliculas\\wwwroot\\peliculas\\1db7fa14-5079-4968-9906-7c9e26ec8b18.jpg",
+      "PackagePath": "staticwebassets\\peliculas\\1db7fa14-5079-4968-9906-7c9e26ec8b18.jpg"
+    },
+    {
+      "Id": "C:\\REPOS\\BlazorServidor\\BlazorServidorPeliculas\\wwwroot\\peliculas\\45c12772-b12c-43a8-804e-26efc93e3cd6.jpg",
+      "PackagePath": "staticwebassets\\peliculas\\45c12772-b12c-43a8-804e-26efc93e3cd6.jpg"
+    },
+    {
+      "Id": "C:\\REPOS\\BlazorServidor\\BlazorServidorPeliculas\\wwwroot\\peliculas\\735fe3a5-653e-4bae-9ec9-7e905880c5ed.jpg",
+      "PackagePath": "staticwebassets\\peliculas\\735fe3a5-653e-4bae-9ec9-7e905880c5ed.jpg"
+    },
+    {
+      "Id": "C:\\REPOS\\BlazorServidor\\BlazorServidorPeliculas\\wwwroot\\peliculas\\96e39300-69e0-4415-b757-ad21c444d0e6.jpg",
+      "PackagePath": "staticwebassets\\peliculas\\96e39300-69e0-4415-b757-ad21c444d0e6.jpg"
+    },
+    {
+      "Id": "C:\\REPOS\\BlazorServidor\\BlazorServidorPeliculas\\wwwroot\\personas\\412c0c62-5cf6-4b48-86d7-bab54d05a0f5.jpg",
+      "PackagePath": "staticwebassets\\personas\\412c0c62-5cf6-4b48-86d7-bab54d05a0f5.jpg"
+    },
+    {
+      "Id": "C:\\REPOS\\BlazorServidor\\BlazorServidorPeliculas\\wwwroot\\personas\\417d81dd-ef05-401c-83c5-11717abe4b89.jpg",
+      "PackagePath": "staticwebassets\\personas\\417d81dd-ef05-401c-83c5-11717abe4b89.jpg"
+    },
+    {
+      "Id": "C:\\REPOS\\BlazorServidor\\BlazorServidorPeliculas\\wwwroot\\personas\\779ea8f7-d297-4c0b-8638-d7bca2914b74.jpg",
+      "PackagePath": "staticwebassets\\personas\\779ea8f7-d297-4c0b-8638-d7bca2914b74.jpg"
+    },
+    {
+      "Id": "C:\\REPOS\\BlazorServidor\\BlazorServidorPeliculas\\wwwroot\\personas\\da9d4712-8986-4e31-b95a-95019b06cd70.jpg",
+      "PackagePath": "staticwebassets\\personas\\da9d4712-8986-4e31-b95a-95019b06cd70.jpg"
+    },
+    {
+      "Id": "C:\\REPOS\\BlazorServidor\\BlazorServidorPeliculas\\wwwroot\\personas\\f5a3ef39-ffca-416f-843b-2aca19bf9e25.jpg",
+      "PackagePath": "staticwebassets\\personas\\f5a3ef39-ffca-416f-843b-2aca19bf9e25.jpg"
+    },
+    {
+      "Id": "C:\\REPOS\\BlazorServidor\\BlazorServidorPeliculas\\wwwroot\\personas\\ff106a4d-468c-4473-9d74-0033172d20a4.jpg",
+      "PackagePath": "staticwebassets\\personas\\ff106a4d-468c-4473-9d74-0033172d20a4.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.BlazorServidorPeliculas.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.BlazorServidorPeliculas.props",
+      "PackagePath": "build\\BlazorServidorPeliculas.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.BlazorServidorPeliculas.props",
+      "PackagePath": "buildMultiTargeting\\BlazorServidorPeliculas.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.BlazorServidorPeliculas.props",
+      "PackagePath": "buildTransitive\\BlazorServidorPeliculas.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

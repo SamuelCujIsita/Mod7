@@ -1,0 +1,43 @@
+﻿@page "/peliculas/editar/{PeliculaId:int}"
+@inject NavigationManager navigationManager
+@inject RepositorioPeliculas repositorio
+@inject RepositorioGenero repositorioGeneros
+@attribute [Authorize(Roles = "admin")]
+
+<h3>Editar Película</h3>
+@if (Pelicula is null)
+{
+    <p>CARGANDO......</p>
+}
+else
+{
+    <FormularioPeliculas Pelicula="Pelicula" OnValidSubmit="Editar"
+                         GenerosNoSeleccionados="GenerosNoSeleccionados"
+                         GenerosSeleccionados="GenerosSeleccionados"
+                         ActoresSeleccionados="ActoresSeleccionados"></FormularioPeliculas>
+}
+
+@code {
+    [Parameter] public int PeliculaId { get; set; }
+    Pelicula? Pelicula;
+    PeliculaActualizaconDTO modelo = new();
+    private List<Genero> GenerosNoSeleccionados = new List<Genero>();
+    private List<Genero> GenerosSeleccionados = new List<Genero>();
+    private List<Actor> ActoresSeleccionados = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        var modelo = await repositorio.PutGet(PeliculaId);
+        ActoresSeleccionados = modelo.Actores;
+        GenerosSeleccionados = modelo.GeneroSeleccionados;
+        GenerosNoSeleccionados = modelo.GeneroNoSeleccionados;
+        Pelicula = modelo.Pelicula;
+    }
+
+
+    private async Task Editar()
+    {
+        await repositorio.Put(Pelicula);
+        navigationManager.NavigateTo($"pelicula/{PeliculaId}");
+    }
+}

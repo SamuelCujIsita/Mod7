@@ -1,0 +1,28 @@
+﻿@page "/"
+@page "/index"
+@inject RepositorioPeliculas repositorio
+
+<PageTitle>Blazor Películas</PageTitle>
+
+<div>
+    <h3>Películas en Cartelera</h3>
+    <ListadoPeliculas Peliculas="EnCartelera" />
+</div>
+
+<div>
+    <h3>Proximos Estrenos</h3>
+    <ListadoPeliculas Peliculas="FuturosEstrenos" />
+</div>
+
+@code {
+
+    public List<Pelicula>? FuturosEstrenos { get; set; }
+    public List<Pelicula>? EnCartelera { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        var homePageDTO = await repositorio.Get();
+        FuturosEstrenos = homePageDTO.ProximosEstrenos;
+        EnCartelera = homePageDTO.PeliculasEnCartelera;
+    }
+}
